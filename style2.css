@@ -1,0 +1,264 @@
+:root{
+    --main-color:#686868;
+    --sec-color:#303030;
+    --bg:#403d38;
+    --bg2:rgb(27,27,27);
+    --bg3:#fff;
+    --bg4:#f8f8f8;
+    
+}
+div{
+    overflow: hidden;
+}
+*{
+    
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body
+{
+    overflow-x:hidden;
+    margin: auto;
+}
+.clear{
+    clear: both;
+}
+img{width: 20px;}
+
+nav{
+    background-color: rgb(221, 221, 221,0.5);
+    position: fixed;
+    overflow: hidden        ;
+    top:0px;
+    padding-top:2vh ;
+    right: 0px;
+    height: 10vh;
+    left: 0px;
+}
+nav img {
+    float:left;
+    width: 120px;
+    margin-left: 10%;
+}
+nav ul,.map .content ul{
+    margin-right: 10%;
+    list-style-type: none;
+    float: right;
+
+}
+nav ul li ,.map .content ul li {
+    margin-left:15px;
+    float: left;
+    font-size: 19px;
+    margin-top: 10px;
+}
+.SameLine{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+.SameLine span{
+    padding: 10px;
+}
+
+nav a{
+    color: white;
+    font-size: 19px;
+    text-decoration: none;
+}
+nav a:hover{
+    color:burlywood;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background-image: url("../images/drew-coffman-1872.jpg");
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    overflow: auto;
+    color: white    ;
+    padding-top:200px ;
+}
+.main p {
+    font-size: 150%;
+    width: 600px;
+    margin: auto;
+    margin-bottom: 20px;   
+}
+h1{
+    font-size: 70px ;
+    font-family: "Alegreya";
+}
+button{
+    /* width: 200px; */
+    margin-top: 80px;
+    padding: 20px 40px;
+    background-color: transparent;
+    font-size: 20px;
+    color: wheat;
+    border-radius: 20px ;
+}
+.btn{
+    background-color:#8e7754;
+}
+button:hover{
+    color: black;
+    background-color: white;
+}
+.odd ,.even{
+    width: 80%;
+    /* height: 100vh; */
+    margin: auto;
+}
+.identification,map,.location{
+    padding-bottom: 15%;
+    overflow: auto;
+
+}
+.even{
+    padding-left: 10%;
+    width: 100%;
+    /* padding-top: 10%; */
+    /* padding-right: 10%; */
+
+}
+.left{
+    padding-top:50px ;
+    width:50%;
+    float: left;
+    padding-right: 50px;
+}
+.left img,.right img{
+    width: 100%;
+}
+.right{
+    padding-top:50px ;
+    padding-left: 10%;
+    width: 50%;
+    float: right;
+    font-size: 150%;
+    color:#686868;
+
+}
+.right h2 , .left h2{
+    padding-top: 10%;
+    font-weight: lighter;
+}
+.right p{
+    font-size: 75%;
+    padding-top:10% ;
+    padding-bottom:10% ;
+
+}
+.right ul{
+font-size: 70%;
+    list-style: none;
+}
+
+.right ul img{
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 10%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+
+.location .right{
+    padding-right: 10px;
+}
+.location h2{
+    padding-bottom: 10%;
+    font-weight: lighter;
+}
+.location p , .left p, .center p , .card p{
+    line-height: 1.5lh;
+    font-size: 15px;
+    color:#686868;
+padding-bottom: 10vh;
+}
+/* third part */
+.baking{
+    height: 100vh;
+    width: 80%;
+    margin: auto;
+    /* padding-top: 40%; */
+}
+.baking .center{
+
+    padding-top: 10vh;
+    text-align: center;
+}
+.center h2{
+        font-size: 40px;
+        font-weight: lighter;
+        font-style: oblique;
+        color: #686868;
+        padding-bottom: 2vh;
+}
+.card{
+    margin-left: 30px;
+    padding: 10px;
+    width: 30%;
+    height: 100vh;
+    display: inline-block;
+}
+.card img{
+    width: 100%;
+margin-bottom: 10%;
+}
+.card h3{
+    padding: 5px;
+    color: #686868;
+    font-weight: lighter;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+
+.card p{
+    text-align: center  ;
+}
+
+
+
+
+.map{
+    margin-top: 10vh;
+    background-color: #f8f8f8;
+    padding: 0 10%;
+    overflow: auto;
+    width: 100vw;
+}
+.map .left , .map .right{
+    padding-bottom: 10%;
+}
+.map .icon{
+    width: 10%;
+    border-radius: 50%;
+    background-color: rgba(109, 84, 84, 0.89);
+}
+.map .right{
+    padding-left: 0px;
+    margin-left: 0px;
+}
+.map iframe{
+width: 40VW;
+}
+
+.map h2{
+    margin-top: 10px;
+    font-size: 32px;
+    padding-bottom: 10%;
+    font-weight: 40px;
+    font-weight: lighter;
+}
+.map .right{
+    margin-top: 20vh;
+    width: 50%;
+}
